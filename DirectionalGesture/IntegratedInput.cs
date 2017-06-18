@@ -8,7 +8,7 @@ using UnityEngine;
 
 namespace Labo
 {
-    interface IIntegratedInput
+    public interface IIntegratedInput
     {
         Vector2 LeftStick { get; }
         Vector2 RightStick { get; }
